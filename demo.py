@@ -1,3 +1,6 @@
+from time import process_time
+
+
 def time_efficiency(func, *args):
     start_time = process_time()
     func(*args)
